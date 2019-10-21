@@ -1,8 +1,46 @@
+//Closoure===========================
+
+
+// const first = () => {
+//     const greet = 'Hi';
+
+
+//     const second = () => {
+//         alert(greet);
+//     }
+
+
+//     return second;
+// }
+// const newFunc = first();
+
+
+// console.log(newFunc(newFunc()));
 
 
 
+//Currying=========================== changing multiple parameter but one at a time
+// const goon = (a, b) => a * b;
 
 
+// New way ============================
+
+// const goonBy = (a) => (b) => a * b;
+// const goonBy3 = goonBy(3);
+
+// console.log(goonBy3(4));
+
+
+
+// old way ========================
+
+// const goonBy = function(a) {
+//     return function(b) {
+//         return a * b;
+//     }
+// }
+// const goonBy3 = goonBy(3);
+// console.log(goonBy3(4));
 
 
 
